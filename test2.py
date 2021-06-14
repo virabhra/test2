@@ -15,7 +15,7 @@ def main():
     ])
     if (inputs['a'] >= 0 ) and (inputs['b'] >= 0,):
         sum1 =inputs['a']+inputs['b']
-        put_text("Your Expected Salary: {}".format(sum1))
+        put_text("Your sum output: {}".format(sum1))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
